@@ -19,8 +19,8 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install -r requests==2.28.1
-          pip install -r pillow
+          pip install requests==2.28.1
+          pip install pillow
 
       - name: execute py script # run main.py
         run: python main.py
