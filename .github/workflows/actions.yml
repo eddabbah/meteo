@@ -1,8 +1,6 @@
 name: run main.py
 
-on:
-  schedule:
-    - cron: '10 19 * * *' 
+on: [push, fork]
 
 jobs:
   build:
